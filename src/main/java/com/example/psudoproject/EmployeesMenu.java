@@ -839,7 +839,7 @@ public class EmployeesMenu extends Application {
                 employees.add(employee);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            e.printStackTrace(); //Added Comment
         } finally {
             if (connectDB != null) {
                 try {
