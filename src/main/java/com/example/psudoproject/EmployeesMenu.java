@@ -674,7 +674,7 @@ public class EmployeesMenu extends Application {
                 if (editPhone.getText().isEmpty()) {
                     style.tfErrorStyle(editPhone);
                     editPhone.clear();
-                    editPhone.setPromptText("Cannot be empty!");
+                    editPhone.setPromptText("Phone Cannot be empty!");
                 } else if (!editPhone.getText().matches("\\d{8}")) {
                     style.tfErrorStyle(editPhone);
                     editPhone.setPromptText("Invalid Format");
